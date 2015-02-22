@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB9759DD1A99BAFD00830789 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9759DC1A99BAFD00830789 /* AppDelegate.swift */; };
+		DB9759DF1A99BAFD00830789 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9759DE1A99BAFD00830789 /* MasterViewController.swift */; };
+		DB9759E11A99BAFD00830789 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9759E01A99BAFD00830789 /* DetailViewController.swift */; };
+		DB9759E41A99BAFD00830789 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9759E21A99BAFD00830789 /* Main.storyboard */; };
+		DB9759E61A99BAFD00830789 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9759E51A99BAFD00830789 /* Images.xcassets */; };
+		DB9759E91A99BAFD00830789 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB9759E71A99BAFD00830789 /* LaunchScreen.xib */; };
+		DB9759F51A99BAFD00830789 /* KESHIUMATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9759F41A99BAFD00830789 /* KESHIUMATests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB9759EF1A99BAFD00830789 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB9759CF1A99BAFD00830789 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB9759D61A99BAFD00830789;
+			remoteInfo = KESHIUMA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB9759D71A99BAFD00830789 /* KESHIUMA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KESHIUMA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9759DB1A99BAFD00830789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9759DC1A99BAFD00830789 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB9759DE1A99BAFD00830789 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		DB9759E01A99BAFD00830789 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DB9759E31A99BAFD00830789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB9759E51A99BAFD00830789 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB9759E81A99BAFD00830789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DB9759EE1A99BAFD00830789 /* KESHIUMATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KESHIUMATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9759F31A99BAFD00830789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9759F41A99BAFD00830789 /* KESHIUMATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KESHIUMATests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB9759D41A99BAFD00830789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9759EB1A99BAFD00830789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB9759CE1A99BAFD00830789 = {
+			isa = PBXGroup;
+			children = (
+				DB9759D91A99BAFD00830789 /* KESHIUMA */,
+				DB9759F11A99BAFD00830789 /* KESHIUMATests */,
+				DB9759D81A99BAFD00830789 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB9759D81A99BAFD00830789 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB9759D71A99BAFD00830789 /* KESHIUMA.app */,
+				DB9759EE1A99BAFD00830789 /* KESHIUMATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB9759D91A99BAFD00830789 /* KESHIUMA */ = {
+			isa = PBXGroup;
+			children = (
+				DB9759DC1A99BAFD00830789 /* AppDelegate.swift */,
+				DB9759DE1A99BAFD00830789 /* MasterViewController.swift */,
+				DB9759E01A99BAFD00830789 /* DetailViewController.swift */,
+				DB9759E21A99BAFD00830789 /* Main.storyboard */,
+				DB9759E51A99BAFD00830789 /* Images.xcassets */,
+				DB9759E71A99BAFD00830789 /* LaunchScreen.xib */,
+				DB9759DA1A99BAFD00830789 /* Supporting Files */,
+			);
+			path = KESHIUMA;
+			sourceTree = "<group>";
+		};
+		DB9759DA1A99BAFD00830789 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB9759DB1A99BAFD00830789 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB9759F11A99BAFD00830789 /* KESHIUMATests */ = {
+			isa = PBXGroup;
+			children = (
+				DB9759F41A99BAFD00830789 /* KESHIUMATests.swift */,
+				DB9759F21A99BAFD00830789 /* Supporting Files */,
+			);
+			path = KESHIUMATests;
+			sourceTree = "<group>";
+		};
+		DB9759F21A99BAFD00830789 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB9759F31A99BAFD00830789 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB9759D61A99BAFD00830789 /* KESHIUMA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9759F81A99BAFD00830789 /* Build configuration list for PBXNativeTarget "KESHIUMA" */;
+			buildPhases = (
+				DB9759D31A99BAFD00830789 /* Sources */,
+				DB9759D41A99BAFD00830789 /* Frameworks */,
+				DB9759D51A99BAFD00830789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KESHIUMA;
+			productName = KESHIUMA;
+			productReference = DB9759D71A99BAFD00830789 /* KESHIUMA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB9759ED1A99BAFD00830789 /* KESHIUMATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9759FB1A99BAFD00830789 /* Build configuration list for PBXNativeTarget "KESHIUMATests" */;
+			buildPhases = (
+				DB9759EA1A99BAFD00830789 /* Sources */,
+				DB9759EB1A99BAFD00830789 /* Frameworks */,
+				DB9759EC1A99BAFD00830789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB9759F01A99BAFD00830789 /* PBXTargetDependency */,
+			);
+			name = KESHIUMATests;
+			productName = KESHIUMATests;
+			productReference = DB9759EE1A99BAFD00830789 /* KESHIUMATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB9759CF1A99BAFD00830789 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Yutaro OBAYASHI";
+				TargetAttributes = {
+					DB9759D61A99BAFD00830789 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					DB9759ED1A99BAFD00830789 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = DB9759D61A99BAFD00830789;
+					};
+				};
+			};
+			buildConfigurationList = DB9759D21A99BAFD00830789 /* Build configuration list for PBXProject "KESHIUMA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB9759CE1A99BAFD00830789;
+			productRefGroup = DB9759D81A99BAFD00830789 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB9759D61A99BAFD00830789 /* KESHIUMA */,
+				DB9759ED1A99BAFD00830789 /* KESHIUMATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB9759D51A99BAFD00830789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9759E41A99BAFD00830789 /* Main.storyboard in Resources */,
+				DB9759E91A99BAFD00830789 /* LaunchScreen.xib in Resources */,
+				DB9759E61A99BAFD00830789 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9759EC1A99BAFD00830789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB9759D31A99BAFD00830789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9759E11A99BAFD00830789 /* DetailViewController.swift in Sources */,
+				DB9759DF1A99BAFD00830789 /* MasterViewController.swift in Sources */,
+				DB9759DD1A99BAFD00830789 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9759EA1A99BAFD00830789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9759F51A99BAFD00830789 /* KESHIUMATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB9759F01A99BAFD00830789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB9759D61A99BAFD00830789 /* KESHIUMA */;
+			targetProxy = DB9759EF1A99BAFD00830789 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB9759E21A99BAFD00830789 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB9759E31A99BAFD00830789 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB9759E71A99BAFD00830789 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB9759E81A99BAFD00830789 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB9759F61A99BAFD00830789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB9759F71A99BAFD00830789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB9759F91A99BAFD00830789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KESHIUMA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB9759FA1A99BAFD00830789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KESHIUMA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB9759FC1A99BAFD00830789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KESHIUMATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KESHIUMA.app/KESHIUMA";
+			};
+			name = Debug;
+		};
+		DB9759FD1A99BAFD00830789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KESHIUMATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KESHIUMA.app/KESHIUMA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB9759D21A99BAFD00830789 /* Build configuration list for PBXProject "KESHIUMA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9759F61A99BAFD00830789 /* Debug */,
+				DB9759F71A99BAFD00830789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9759F81A99BAFD00830789 /* Build configuration list for PBXNativeTarget "KESHIUMA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9759F91A99BAFD00830789 /* Debug */,
+				DB9759FA1A99BAFD00830789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB9759FB1A99BAFD00830789 /* Build configuration list for PBXNativeTarget "KESHIUMATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9759FC1A99BAFD00830789 /* Debug */,
+				DB9759FD1A99BAFD00830789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB9759CF1A99BAFD00830789 /* Project object */;
+}
